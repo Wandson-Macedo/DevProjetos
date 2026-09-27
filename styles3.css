@@ -1,0 +1,127 @@
+*{
+    font-family: 'Osvald', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+   
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    bottom: 20px;
+    @media screen and (max-width: 600px) {
+        padding: 40px;
+        display: block;
+        position: static;
+        left: 10px;
+    }
+}    
+#h1_section{
+    width: 500px;
+    height: 160px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 0px;
+    color: #5d5d7d;
+    @media screen and (max-width: 600px) {
+        width: 268px;
+        height: 104px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+    }
+
+}
+#p_section{
+    width: 540px;
+    height: 300px;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: justify;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #5d5d7d;
+    opacity: 60%;
+    @media screen and (max-width: 600px) {
+        width: 268px;
+        height: 140px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
+button{
+    width: 269px;
+    height: 62px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #9499ea;
+    border: none;
+    @media screen and (max-width: 600px) {
+        display: block;
+        margin: 20px auto;
+    }
+}
+img{
+    width: 456px;
+    height: 561px;
+    position: absolute;
+    right: 170px;
+    bottom: 20px;
+    @media screen and (max-width: 600px) {
+        position:relative;
+        display: block;
+        margin: 0px auto;
+        right: 0;
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+        
+        top: 0;
+    }
+}
+aside{
+    position: absolute;
+    right: 0;
+    width: 491px;
+    height: 100vh;
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    @media screen and (max-width: 600px) {
+        
+        position: static;
+        padding: 20px;
+        width: 100vw;
+        height: 50vh;
+    }
+}
+
+#menu_aside{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    @media screen and (max-width: 600px) {
+        display: none;
+        position: static;
+    }
+}
+.link_aside{
+    
+    margin: 15px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    color: #5d5d7d;
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+
+}
